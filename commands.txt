@@ -1,0 +1,35 @@
+ng new cars-workshop --routing --directory CarsWorkshop --prefix cb 
+
+ng build
+ng build --prod --outputPath=prod
+ng serve -o
+ng serve --ssl true -o
+ng lin
+
+add core and shared folders inside src/app
+
+ng g component dashboard
+or
+ng g c dashboard
+add <cb-dashboard></cb-dashboard> to app.component.html
+
+create rota folder, cd into it
+ng g c rota-pool --flat
+
+ng g c create-rota --flat
+
+ng g s rota --flat
+
+cd C:\Source\SandBox\Angular7Workshop\CarsWorkshop\src\app\core\interfaces
+ng g i rota
+ng g i rotapool
+ng g i person
+
+ng g m rota --flat
+ng g c test
+
+ng g d title-case
+
+ng g i created-rota 
+
+ng test
